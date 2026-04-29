@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact wijkopen — Request a free, no-obligation property offer within 24 hours.">
+  <title>Contact — wijkopen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ════ NAVIGATION ════ -->
+  <nav class="nav" id="main-nav">
+    <div class="container">
+      <a href="index.html" class="nav__logo">wijkopen</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="sell-your-house.html">Sell Your House</a>
+        <a href="rented-property.html">Rented Property</a>
+        <a href="commercial-property.html">Commercial Property</a>
+        <a href="contact.html">Contact</a>
+        <span class="nav__cta">
+          <a href="contact.html" class="btn btn-primary">Request a Free Offer</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════ PAGE HERO ════ -->
+  <section class="hero hero--short hero--center" style="background:var(--color-navy); margin-top:var(--nav-height);">
+    <div class="container">
+      <div class="hero__content">
+        <h1 style="font-size:48px;">Get Your Free, No-Obligation Offer&nbsp;Today</h1>
+        <p style="font-size:18px;">Fill in your details and we will come back to you within 24 hours with a concrete offer. No obligations, no hidden costs, no surprises. Just clarity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════ CONTACT FORM ════ -->
+  <section class="section section--white" id="contact-form">
+    <div class="container">
+      <div class="two-col two-col--65-35 fade-in">
+        <!-- Form -->
+        <div>
+          <div class="form-card">
+            <h2 style="font-size:28px; margin-bottom:24px;">Request Your Free Property Offer</h2>
+            <form data-redirect="success.html" id="contact-main-form">
+              <div class="two-col" style="gap:16px;">
+                <div class="form-group">
+                  <label for="c-name">Full Name *</label>
+                  <input type="text" id="c-name" name="name" required placeholder="Your full name">
+                </div>
+                <div class="form-group">
+                  <label for="c-phone">Phone Number *</label>
+                  <input type="tel" id="c-phone" name="phone" required placeholder="+31 6 1234 5678">
+                </div>
+              </div>
+              <div class="two-col" style="gap:16px;">
+                <div class="form-group">
+                  <label for="c-email">Email Address *</label>
+                  <input type="email" id="c-email" name="email" required placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="c-address">Property Address *</label>
+                  <input type="text" id="c-address" name="address" required placeholder="Street, city, postal code">
+                </div>
+              </div>
+              <div class="two-col" style="gap:16px;">
+                <div class="form-group">
+                  <label for="c-type">Type of Property</label>
+                  <select id="c-type" name="type">
+                    <option value="">Select type...</option>
+                    <option>House</option>
+                    <option>Apartment</option>
+                    <option>Rented Property</option>
+                    <option>Commercial</option>
+                    <option>Portfolio</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="c-situation">Your Situation</label>
+                  <select id="c-situation" name="situation">
+                    <option value="">Select situation...</option>
+                    <option>Standard sale</option>
+                    <option>Divorce</option>
+                    <option>Inheritance</option>
+                    <option>Emigration</option>
+                    <option>New-build purchase</option>
+                    <option>Downsizing</option>
+                    <option>Portfolio</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="c-message">Additional Information</label>
+                <textarea id="c-message" name="message" rows="4" placeholder="Tell us more about your situation so we can prepare the best offer for you."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Send My Request — Offer Within 24 Hours</button>
+              <p class="privacy-note">Your information is handled confidentially and is never shared with third parties.</p>
+            </form>
+
+            <!-- What Happens Next -->
+            <div class="next-steps" style="margin-top:32px; border-top:1px solid var(--color-divider); padding-top:24px;">
+              <h3 style="font-size:18px; margin-bottom:12px;">What Happens Next</h3>
+              <div class="next-step">
+                <div class="next-step__num">1</div>
+                <p class="next-step__text">We receive your request and review your property details.</p>
+              </div>
+              <div class="next-step">
+                <div class="next-step__num">2</div>
+                <p class="next-step__text">Within 24 hours, a team member contacts you personally with a concrete offer.</p>
+              </div>
+              <div class="next-step">
+                <div class="next-step__num">3</div>
+                <p class="next-step__text">If you accept, we agree on a transfer date that suits you — no rush, no pressure.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div>
+          <div class="contact-info fade-in">
+            <h3>Prefer to Talk Directly?</h3>
+            <p>Our team is ready to answer your questions personally. Call us or send a message — we respond quickly.</p>
+            <div class="contact-info__item" style="margin-top:16px;">📞 <strong>+31 20 123 4567</strong></div>
+            <div class="contact-info__item">✉️ <strong>info@zekerhoeven.nl</strong></div>
+            <div class="contact-info__item" style="color:var(--color-muted);">Monday – Friday, 9:00–18:00<br>Saturday, 10:00–15:00</div>
+          </div>
+          <div class="contact-info fade-in" style="margin-top:20px;">
+            <h3 style="font-size:16px; margin-bottom:12px;">Your Assurance</h3>
+            <ul class="trust-points">
+              <li>Your data is handled confidentially</li>
+              <li>Completely free and non-binding</li>
+              <li>No agent fees, no hidden costs</li>
+              <li>We cover the notary costs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════ FAQ ════ -->
+  <section class="section section--bg" id="faq">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq fade-in">
+        <div class="faq-item">
+          <button class="faq-question">Is the offer really free and non-binding? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">Yes, completely. We assess your property and provide a concrete offer at no cost and with no obligation. You are free to accept or decline — there is no pressure and no follow-up costs.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How quickly will I receive an offer? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">We always aim to come back to you within 24 hours. In most cases it is faster. You will always be contacted by a real team member — not an automated system.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Does my property need to be in good condition? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">No. We buy properties in any condition — fixer-uppers, deferred maintenance, fire damage, outdated interiors, contamination. You do not need to renovate or clean before selling.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can I stay in my home after the sale? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">Yes. You can continue living in your home for up to two years after the sale while you search for your next place. If you find something sooner, we move the transfer date forward. You are never rushed.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Are there agent fees or hidden costs? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">No. There are no real estate agent fees. We also cover the notary costs. The offer you receive is what you walk away with — no deductions, no surprises.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What types of property do you buy? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">All types: houses, apartments, fixer-uppers, inherited homes, rented properties (residential and commercial), commercial buildings, and portfolios of multiple properties. Any situation, any condition.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can you handle divorce or inheritance situations? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">Yes — these are among the situations we deal with every day. For divorce, both parties receive their fair share and everything is handled through the notary. For inheritance, we buy as is so the estate can be divided quickly without upfront renovation costs.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can you buy multiple properties at once? <span class="faq-question__icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer__content">Yes. We buy entire portfolios — from three properties to thirty or more — in a single transaction. One deal, one point of contact. Much faster than selling property by property through separate agents.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════ FOOTER ════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <div class="footer__logo">wijkopen</div>
+          <p class="footer__tagline">Sell your home without risks and without the stress of selling.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Pages</h4>
+          <a href="index.html">Home</a>
+          <a href="sell-your-house.html">Sell Your House</a>
+          <a href="rented-property.html">Rented Property</a>
+          <a href="commercial-property.html">Commercial Property</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <a href="sell-your-house.html">Direct Purchase</a>
+          <a href="sell-your-house.html#flexible-transfer">Flexible Transfer</a>
+          <a href="rented-property.html">Rented Properties</a>
+          <a href="commercial-property.html">Commercial</a>
+          <a href="contact.html">Portfolio Sales</a>
+          <a href="sell-your-house.html#complex-situations">Divorce & Inheritance</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contact & Legal</h4>
+          <p>📞 +31 20 123 4567</p>
+          <p>✉️ info@zekerhoeven.nl</p>
+          <p>KvK: 12345678</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+      <div class="footer__bottom">© 2025 wijkopen. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
