@@ -3,13 +3,13 @@
    ======================================== */
 
 :root {
-  --color-navy: #2C3E5D;
-  --color-navy-deep: #1E2D45;
-  --color-navy-card: #334D6E;
-  --color-green: #4A7C6F;
-  --color-green-hover: #3D6860;
-  --color-green-active: #2E5248;
-  --color-green-light: #E8F0EE;
+  --color-navy: #1B3A6B;
+  --color-navy-deep: #0F2440;
+  --color-navy-card: #264E80;
+  --color-green: #2E8B6E;
+  --color-green-hover: #237A5E;
+  --color-green-active: #1A6349;
+  --color-green-light: #DFF5EC;
   --color-bg: #F4F6F9;
   --color-bg-alt: #EEF1F5;
   --color-white: #FFFFFF;
@@ -382,7 +382,7 @@ p:last-child { margin-bottom:0; }
 /* Success Page */
 .success-page {
   min-height:100vh; display:flex; align-items:center; justify-content:center;
-  background:var(--color-bg); margin-top:var(--nav-height);
+  background:var(--color-bg); padding-top:80px;
 }
 .success-card {
   background:var(--color-white); border-radius:16px; padding:60px;
